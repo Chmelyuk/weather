@@ -155,7 +155,7 @@ body {
   width: 75px;
 }
 
-.search:hover > .searchText {
+.search:focus > .searchText {
   width: 350px;
   padding: 0 6px;
   position: relative;
