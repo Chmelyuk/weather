@@ -206,14 +206,13 @@ a:hover {
 }
 
 .block-news2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+ display: -webkit-box;
+   display: flex;
+  
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+   margin-left: 5%;
+margin-right: 5%;
 }
 
 .dish2 {
@@ -251,14 +250,13 @@ a:hover {
 }
 
 .block-news3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+ display: -webkit-box;
+   display: flex;
+  
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+   margin-left: 5%;
+margin-right: 5%;
 }
 
 .dish3 {
@@ -296,14 +294,13 @@ a:hover {
 }
 
 .block-news4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+ display: -webkit-box;
+   display: flex;
+  
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+   margin-left: 5%;
+margin-right: 5%;
 }
 
 .dish4 {
@@ -342,13 +339,12 @@ a:hover {
 
 .block-news5 {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+   display: flex;
+  
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+   margin-left: 5%;
+margin-right: 5%;
 }
 
 .dish5 {
