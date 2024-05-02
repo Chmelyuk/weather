@@ -1,0 +1,300 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+
+
+}
+.container{
+  max-width: 100%;
+  margin: 0px auto;
+}
+.navigation{
+ display: block;
+ width: 100%;
+ min-height: 50px;
+ background-color: sandybrown;
+  background: linear-gradient(brown ,sandybrown );
+   z-index: 1;
+}
+
+
+
+  .banner{
+     
+    display: flex;
+    width: 100%;
+    min-height: 30%;
+    img {
+      height: 100%;
+      width: 100%;
+       opacity: 0.9;
+    }
+  }
+  
+  .menu_navbar{
+ display: flex;
+ width: 100%;
+ height: 50px;
+  background: linear-gradient(black ,#45322E );
+  position: sticky;
+   a {
+  color: #C0C0C0; 
+  margin: AUTO;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+
+   
+}
+
+a:hover{
+  text-decoration: underline #C0C0C0 3px;
+     
+}
+  
+   
+.food {
+  min-height: 500px;
+  width: 100%;
+  background-image: url("../img/pattern.jpg");
+ background-size: repeat;
+ opacity: 0.9;
+}
+.titles{
+  text-align: center;
+  padding-top: 3%;
+  color: #C0C0C0; 
+  margin: AUTO;
+  font-size: 18px;
+  font-weight: 700; ;
+
+}
+
+@media (max-width:1200px){
+  .container{max-width:970px;
+  }
+}
+@media (max-width:992px){
+  .container{max-width:750px;
+  }
+}
+@media (max-width:768px){
+  .container{max-width:none;
+  }
+}
+
+.block-news {
+  display: -webkit-box;
+   display: flex;
+  
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+   margin-left: 5%;
+margin-right: 5%;
+}
+
+.dish {
+ margin: auto;
+  width: 25%;
+  
+margin-top: 5%;
+}
+  .dish img {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+     opacity: 0.7;
+  transition-duration: 1s;
+  border-radius: 5%;
+}
+  .dish p {
+  color: #C0C0C0;
+  margin-top: 10%;
+  opacity: 0;
+
+}
+.dish img:hover  {
+  width: 100%*1.2;
+  height: auto;
+  margin-top: 10%;
+  opacity: 1;
+
+}
+.dish:hover .text {
+  opacity: 1;
+   
+
+}
+
+.block-news2 {
+  display: -webkit-box;
+   display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.dish2 {
+   width: 25%;
+  margin: auto;
+
+}
+  .dish2 img {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+  display: inline-block;
+  opacity: 0.7;
+  transition-duration: 1s;
+  border-radius: 5%;
+}
+  .dish2 p {
+  color: #C0C0C0;
+  margin-top: 10%;
+  opacity: 0;
+
+}
+.dish2 img:hover  {
+  width: 100%*1.2;
+  height: auto;
+  margin-top: 10%;
+  opacity: 1;
+}
+.dish2:hover .text {
+  opacity: 1;
+   
+
+}
+
+.block-news3 {
+  display: -webkit-box;
+   display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.dish3 {
+   width: 25%;
+  margin: auto;
+position: relative;
+  
+}
+  .dish3 img {
+  width: 100%;
+  max-height: width;
+  margin-top: 10%;
+  display: inline-block;
+  opacity: 0.7;
+  transition-duration: 1s;
+  border-radius: 5%;
+  
+
+}
+  .dish3 p {
+  color: #C0C0C0;
+  margin-top: 10%;
+  opacity: 0;
+
+}
+.dish3 img:hover  {
+  width: 100%*1.2;
+  height: auto;
+  margin-top: 10%;
+  opacity: 1;
+}
+.dish3:hover .text {
+  opacity: 1;
+   
+
+}
+
+.block-news4 {
+  display: -webkit-box;
+   display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.dish4 {
+   width: 25%;
+  margin: auto;
+position: relative;
+  
+}
+  .dish4 img {
+  width: 100%;
+  max-height: width;
+  margin-top: 10%;
+  display: inline-block;
+  opacity: 0.7;
+  transition-duration: 1s;
+  border-radius: 5%;
+  
+
+}
+  .dish4 p {
+  color: #C0C0C0;
+  margin-top: 10%;
+  opacity: 0;
+
+}
+.dish4 img:hover  {
+  width: 100%*1.2;
+  height: auto;
+  margin-top: 10%;
+  opacity: 1;
+}
+.dish4:hover .text {
+  opacity: 1;
+   
+
+}
+.block-news5 {
+  display: -webkit-box;
+   display: flex;
+    justify-content:space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.dish5 {
+   width: 25%;
+  margin: auto;
+position: relative;
+  
+}
+  .dish5 img {
+  width: 100%;
+  max-height: width;
+  margin-top: 10%;
+  display: inline-block;
+  opacity: 0.7;
+  transition-duration: 1s;
+  border-radius: 5%;
+  
+
+}
+  .dish5 p {
+  color: #C0C0C0;
+  margin-top: 10%;
+  opacity: 0;
+
+}
+.dish5 img:hover  {
+  width: 100%*1.2;
+  height: auto;
+  margin-top: 10%;
+  opacity: 1;
+}
+.dish5:hover .text {
+  opacity: 1;
+   
+
+}
