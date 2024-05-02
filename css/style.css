@@ -217,8 +217,9 @@ a:hover {
 }
 
 .dish2 {
-  width: 25%;
   margin: auto;
+  width: 25%;
+  margin-top: 5%;
 }
 
 .dish2 img {
@@ -261,9 +262,9 @@ a:hover {
 }
 
 .dish3 {
+   margin: auto;
   width: 25%;
-  margin: auto;
-  position: relative;
+  margin-top: 5%;
 }
 
 .dish3 img {
@@ -306,9 +307,9 @@ a:hover {
 }
 
 .dish4 {
+   margin: auto;
   width: 25%;
-  margin: auto;
-  position: relative;
+  margin-top: 5%;
 }
 
 .dish4 img {
@@ -351,9 +352,9 @@ a:hover {
 }
 
 .dish5 {
+   margin: auto;
   width: 25%;
-  margin: auto;
-  position: relative;
+  margin-top: 5%;
 }
 
 .dish5 img {
