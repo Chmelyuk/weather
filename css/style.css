@@ -405,6 +405,7 @@ a:hover {
   opacity: 0.9;
 }
 
+
 .block-drinks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -416,11 +417,11 @@ a:hover {
   flex-wrap: wrap;
   margin-left: 5%;
   margin-right: 5%;
+ margin-bottom: 10%;
 }
 
 
-
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .block-drinks {
     margin-bottom: 20%;
   }
@@ -441,6 +442,8 @@ a:hover {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 10%;
+   margin-bottom: 10%;
+  
 }
 
 .drink {
